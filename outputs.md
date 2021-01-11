@@ -1,0 +1,156 @@
+child_accounts = {
+  "dev" = {
+    "arn" = "arn:aws:organizations::453687634329:account/o-t5jg9xzbj7/475869990298"
+      "email" = "rho+dev-account-1@gruntwork.io"
+      "iam_user_access_to_billing" = "ALLOW"
+      "id" = "475869990298"
+      "joined_method" = "CREATED"
+      "joined_timestamp" = "2021-01-06T20:57:57Z"
+      "name" = "dev"
+      "parent_id" = "r-klrn"
+      "role_name" = "OrganizationAccountAccessRole"
+      "status" = "ACTIVE"
+      "tags" = {}
+  }
+  "logs" = {
+    "arn" = "arn:aws:organizations::453687634329:account/o-t5jg9xzbj7/497155131447"
+      "email" = "rho+logs-account-2@gruntwork.io"
+      "iam_user_access_to_billing" = "ALLOW"
+      "id" = "497155131447"
+      "joined_method" = "CREATED"
+      "joined_timestamp" = "2021-01-06T21:19:30Z"
+      "name" = "logs"
+      "parent_id" = "r-klrn"
+      "role_name" = "OrganizationAccountAccessRole"
+      "status" = "ACTIVE"
+      "tags" = {}
+  }
+  "prod" = {
+    "arn" = "arn:aws:organizations::453687634329:account/o-t5jg9xzbj7/628473694279"
+      "email" = "rho+prod-account-1@gruntwork.io"
+      "iam_user_access_to_billing" = "ALLOW"
+      "id" = "628473694279"
+      "joined_method" = "CREATED"
+      "joined_timestamp" = "2021-01-06T20:58:10Z"
+      "name" = "prod"
+      "parent_id" = "r-klrn"
+      "role_name" = "OrganizationAccountAccessRole"
+      "status" = "ACTIVE"
+      "tags" = {}
+  }
+  "security" = {
+    "arn" = "arn:aws:organizations::453687634329:account/o-t5jg9xzbj7/000476352289"
+      "email" = "rho+security-account-2@gruntwork.io"
+      "iam_user_access_to_billing" = "DENY"
+      "id" = "000476352289"
+      "joined_method" = "CREATED"
+      "joined_timestamp" = "2021-01-06T21:20:38Z"
+      "name" = "security"
+      "parent_id" = "r-klrn"
+      "role_name" = "OrganizationAccountAccessRole"
+      "status" = "ACTIVE"
+      "tags" = {}
+  }
+  "shared-services" = {
+    "arn" = "arn:aws:organizations::453687634329:account/o-t5jg9xzbj7/693772918684"
+      "email" = "rho+shared-services-account-1@gruntwork.io"
+      "iam_user_access_to_billing" = "ALLOW"
+      "id" = "693772918684"
+      "joined_method" = "CREATED"
+      "joined_timestamp" = "2021-01-06T20:57:32Z"
+      "name" = "shared-services"
+      "parent_id" = "r-klrn"
+      "role_name" = "OrganizationAccountAccessRole"
+      "status" = "ACTIVE"
+      "tags" = {}
+  }
+  "stage" = {
+    "arn" = "arn:aws:organizations::453687634329:account/o-t5jg9xzbj7/325977311351"
+      "email" = "rho+stage-account-1@gruntwork.io"
+      "iam_user_access_to_billing" = "ALLOW"
+      "id" = "325977311351"
+      "joined_method" = "CREATED"
+      "joined_timestamp" = "2021-01-06T20:57:08Z"
+      "name" = "stage"
+      "parent_id" = "r-klrn"
+      "role_name" = "OrganizationAccountAccessRole"
+      "status" = "ACTIVE"
+      "tags" = {}
+  }
+}
+cloudtrail_iam_role_arn = arn:aws:iam::453687634329:role/cloudtrail-logs-role
+cloudtrail_iam_role_name = cloudtrail-logs-role
+cloudtrail_kms_key_alias_name = alias/cloudtrail-rho-testing-refarchdeepdive
+cloudtrail_kms_key_arn = arn:aws:kms:us-west-1:497155131447:key/e18e1c0d-4ec7-497a-a344-c69c3d1ebd33
+cloudtrail_s3_bucket_arn = arn:aws:s3:::rho-testing-refarchdeepdive-cloudtrail
+cloudtrail_s3_bucket_name = rho-testing-refarchdeepdive-cloudtrail
+cloudtrail_trail_arn = arn:aws:cloudtrail:us-west-1:453687634329:trail/rho-testing-refarchdeepdive
+config_iam_role_arns = {
+  "ap-northeast-1" = ""
+    "ap-northeast-2" = ""
+    "ap-south-1" = ""
+    "ap-southeast-1" = ""
+    "ap-southeast-2" = ""
+    "ca-central-1" = ""
+    "eu-central-1" = ""
+    "eu-north-1" = ""
+    "eu-west-1" = ""
+    "eu-west-2" = ""
+    "eu-west-3" = ""
+    "sa-east-1" = ""
+    "us-east-1" = ""
+    "us-east-2" = ""
+    "us-west-1" = "arn:aws:iam::453687634329:role/AWSConfigRole"
+    "us-west-2" = ""
+}
+config_recorder_names = {
+  "ap-northeast-1" = "default"
+    "ap-northeast-2" = "default"
+    "ap-south-1" = "default"
+    "ap-southeast-1" = "default"
+    "ap-southeast-2" = "default"
+    "ca-central-1" = "default"
+    "eu-central-1" = "default"
+    "eu-north-1" = "default"
+    "eu-west-1" = "default"
+    "eu-west-2" = "default"
+    "eu-west-3" = "default"
+    "sa-east-1" = "default"
+    "us-east-1" = "default"
+    "us-east-2" = "default"
+    "us-west-1" = "default"
+    "us-west-2" = "default"
+}
+config_s3_bucket_arn = arn:aws:s3:::rho-testing-refarchdeepdive-logs-config
+config_s3_bucket_name = rho-testing-refarchdeepdive-logs-config
+config_sns_topic_arns = {
+  "ap-northeast-1" = "arn:aws:sns:ap-northeast-1:453687634329:ConfigTopic"
+    "ap-northeast-2" = "arn:aws:sns:ap-northeast-2:453687634329:ConfigTopic"
+    "ap-south-1" = "arn:aws:sns:ap-south-1:453687634329:ConfigTopic"
+    "ap-southeast-1" = "arn:aws:sns:ap-southeast-1:453687634329:ConfigTopic"
+    "ap-southeast-2" = "arn:aws:sns:ap-southeast-2:453687634329:ConfigTopic"
+    "ca-central-1" = "arn:aws:sns:ca-central-1:453687634329:ConfigTopic"
+    "eu-central-1" = "arn:aws:sns:eu-central-1:453687634329:ConfigTopic"
+    "eu-north-1" = "arn:aws:sns:eu-north-1:453687634329:ConfigTopic"
+    "eu-west-1" = "arn:aws:sns:eu-west-1:453687634329:ConfigTopic"
+    "eu-west-2" = "arn:aws:sns:eu-west-2:453687634329:ConfigTopic"
+    "eu-west-3" = "arn:aws:sns:eu-west-3:453687634329:ConfigTopic"
+    "sa-east-1" = "arn:aws:sns:sa-east-1:453687634329:ConfigTopic"
+    "us-east-1" = "arn:aws:sns:us-east-1:453687634329:ConfigTopic"
+    "us-east-2" = "arn:aws:sns:us-east-2:453687634329:ConfigTopic"
+    "us-west-1" = "arn:aws:sns:us-west-1:453687634329:ConfigTopic"
+    "us-west-2" = "arn:aws:sns:us-west-2:453687634329:ConfigTopic"
+}
+master_account_arn = arn:aws:organizations::453687634329:account/o-t5jg9xzbj7/453687634329
+master_account_email = rho+test-account-1@gruntwork.io
+master_account_id = 453687634329
+organization_arn = arn:aws:organizations::453687634329:organization/o-t5jg9xzbj7
+organization_id = o-t5jg9xzbj7
+
+Outputs:
+
+user_access_keys = {}
+user_arns = {
+    "rho-admin" = "arn:aws:iam::000476352289:user/rho-admin"
+}
+user_passwords = {}
